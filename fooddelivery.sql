@@ -83,7 +83,7 @@ CREATE TABLE IF NOT EXISTS `orders` (
 --
 
 INSERT INTO `orders` (`Id`, `ClientName`, `DeliveryGuyName`, `RestaurantName`, `DeliveryArea`, `Date`, `Time`, `Itemname`, `Itemprice`, `Itemqty`, `Itemtotal`, `grandtotal`, `OrderStatus`, `Status`) VALUES
-(8, 'riya1', NULL, 'mcd1', 'H6G', '2020-02-15', '18:48:46.713', 'BigMac', '5.00', '2', '10.0', '45.0', 'pending', 1),
+(8, 'nehal1', NULL, 'mcd1', 'H6G', '2020-02-15', '18:48:46.713', 'BigMac', '5.00', '2', '10.0', '45.0', 'pending', 1),
 (9, 'riya1', NULL, 'mcd1', 'H6G', '2020-02-15', '18:48:46.713', 'Junior', '1.00', '10', '10.0', '45.0', 'pending', 1),
 (10, 'riya1', NULL, 'mcd1', 'H6G', '2020-02-15', '18:48:46.713', 'BigMac', '5.00', '5', '25.0', '45.0', 'pending', 1),
 (11, 'Pooja', NULL, 'mcd1', 'H6G', '2020-02-15', '19:19:54.785', 'BigMac', '5.00', '1', '5.0', '6.0', 'pending', 1),
@@ -187,7 +187,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`Id`, `Username`, `Password`, `Cpassword`, `Last_name`, `First_name`, `Address`, `Email`, `Phone_number`, `Level`, `Restaurant_Name`, `Status`) VALUES
-(1, 'riya1', '111', '111', 'patel', 'riya', 'Montreal', 'riya@123', '1234567890', 'admin', '', 1),
+(1, 'nehal', '111', '111', 'patel', 'riya', 'Montreal', 'riya@123', '1234567890', 'admin', '', 1),
 (2, 'aaa', 'aaaa', '', 'aaaa', 'aaa', 'aaa', 'aaa', 'dfesdfsedf', '2', '', 1),
 (3, 'riya', '12', '', 'jlfkj', 'jflkjf;l', 'fjlkfj', 'jlskfj', '12323', '22', '', 1),
 (4, 'aaaaa', 'aaa', '', 'defdse', 'fsfs', 'eefes', 'dede', 'effsf', 'client', '', 1),
